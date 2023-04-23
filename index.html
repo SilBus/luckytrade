@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="./img/favicon-32x32.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <link rel="stylesheet" href="./style/estilo.css">
@@ -49,7 +50,7 @@
                         <a class="nav-link active tip1" aria-current="page" href="#">ENGLISH</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active tip2" aria-current="page" href="#">ESPAÑOL</a>
+                        <a class="nav-link active tip2" aria-current="page" href="./espanol/espanol.html">ESPAÑOL</a>
                     </li>
                 </ul>
             </div>
@@ -57,22 +58,23 @@
     </nav>
 
     <main>
+
         <div id="home" class="espacioHome"></div>
         <section class="container-fluid text-center cardsty1">
             <div class="row">
-                <div class="col-sm-12 col-md-6 col-lg-4 mx-auto p-5">
+                <div data-aos="fade-right" data-aos-duration="1000" class="col-sm-12 col-md-6 col-lg-4 mx-auto p-5">
                     <div class="card mx-auto cardSty" style="width: 18rem;">
                         <img src="./img/imgmain1.png" class="card-img-top" alt="...">
                     </div>
                 </div>
 
-                <div class="col-sm-12 col-md-6 col-lg-4 mx-auto p-5">
+                <div data-aos="fade-right" data-aos-duration="1000" class="col-sm-12 col-md-6 col-lg-4 mx-auto p-5">
                     <div class="card mx-auto cardSty" style="width: 18rem;">
                         <img src="./img/imgmain2.png" class="card-img-top" alt="...">
                     </div>
                 </div>
 
-                <div class="col-sm-12 col-md-6 col-lg-4 mx-auto p-5">
+                <div data-aos="fade-right" data-aos-duration="1000" class="col-sm-12 col-md-6 col-lg-4 mx-auto p-5">
                     <div class="card mx-auto cardSty" style="width: 18rem;">
                         <img src="./img/imgmain3.png" class="card-img-top" alt="...">
                     </div>
@@ -82,7 +84,7 @@
 
         <section>
             <div id="company" class="espacioCompany"></div>
-            <div class="container-fluid">
+            <div data-aos="fade-left" data-aos-duration="1000" class="container-fluid">
                 <div class="row">
                     <div class="card mx-auto estilo7">
                         <div class="row g-0">
@@ -96,23 +98,24 @@
                         </div>
                     </div>
 
-                    <div class="card mb-3 mx-auto estilo0" style="max-width: 60rem;">
-                        <div class="row g-0">
-                            <div class="col-md-4 col-sm-12 mx-auto estilo3">
-                                <img src="./img/img7.png" class="img-fluid rounded-start" alt="...">
-                            </div>
-                            <div class="col-md-8 col-sm-12 mx-auto">
-                                <div class="card-body estilo1">
-                                    <h4 class="card-title">VIEWPOINT</h4>
-                                    <p class="card-text estilo2">We are committed to ptovide quality and easy services.
-                                        <br>
-                                        Working with large volume of operations allow us to quickly respond to the needs
-                                        or
-                                        our
-                                        customers
-                                    </p>
+                    
+
+                        <div class="card mb-3 mx-auto estilo0" style="max-width: 60rem;">
+                            <div class="row g-0">
+                                <div class="col-md-4 col-sm-12 mx-auto estilo3">
+                                    <img src="./img/img7.png" class="img-fluid rounded-start" alt="...">
                                 </div>
-                            </div>
+                                <div class="col-md-8 col-sm-12 mx-auto">
+                                    <div class="card-body estilo1">
+                                        <h4 class="card-title">MISSION</h4>
+                                        <p class="card-text estilo2">We generate strategic plans oriented to growth,
+                                            profit, and sustainability of organizations, giving them effective solutions
+                                            that add value to the business, whith an adequate cost-benefit ratio.
+                                        </p>
+                                    </div>
+                                </div>
+                            
+
                             <div class="card mb-3 mx-auto estilo0" style="max-width: 60rem;">
                                 <div class="row g-0">
                                     <div class="col-md-4 mx-auto estilo3">
@@ -121,7 +124,7 @@
                                     <div class="col-md-8 mx-auto">
                                         <div class="card-body estilo1">
                                             <h4 class="card-title">VIEWPOINT</h4>
-                                            <p class="card-text estilo2">We are committed to ptovide quality and easy
+                                            <p class="card-text estilo2">We are committed to provide quality and easy
                                                 services. <br>
                                                 Working with large volume of operations allow us to quickly respond to
                                                 the
@@ -135,97 +138,100 @@
                             </div>
                         </div>
                     </div>
-        </section>
+                    </section>
 
-        <section>
-            <div id="services" class="espacioServices"></div>
-            <div class="container-fluid">
-                <div class="row mt-5 pt-5">
-                    <div class="card mx-auto" style="width: 60rem;">
-                        <img src="./img/img10.png" class="card-img-top" alt="...">
-                    </div>
-                </div>
-        </section>
+                    <section>
+                        <div id="services" class="espacioServices"></div>
+                        <div data-aos="flip-right" data-aos-duration="1000" class="container-fluid">
+                            <div class="row mt-5 pt-5">
+                                <div class="card mx-auto" style="width: 60rem;">
+                                    <img src="./img/img10.png" class="card-img-top" alt="...">
+                                </div>
+                            </div>
+                    </section>
 
-        <section id="contact" class="sty11">
-            <form class="sty10">
-                <div class="container text-center mx-auto sty9">
-                    <div class="row">
-                        <div class="col-xs-12 col-md-12 col-lg-6 mx-auto">
-                            <fieldset>
-                                <legend class="text-start text-white">Contact Form</legend>
-                                <div class="input-group">
-                                    <span class="input-group-text sty1">
-                                        <input type="text" aria-label="First name" class="form-control"
-                                            placeholder="Last name and First name">
-                                    </span>
-                                    <span class="input-group-text sty1">
-                                        <input type="text" aria-label="First name" class="form-control"
-                                            placeholder="Company">
-                                    </span>
+                    <section id="contact" class="sty11">
+                        <form class="sty10">
+                            <div class="container text-center mx-auto sty9">
+                                <div class="row">
+                                    <div data-aos="zoom-in" data-aos-duration="1000" class="col-xs-12 col-md-12 col-lg-6 mx-auto">
+                                        <fieldset>
+                                            <legend class="text-start text-white">Contact Form</legend>
+                                            <div class="input-group">
+                                                <span class="input-group-text sty1">
+                                                    <input type="text" aria-label="First name" class="form-control"
+                                                        placeholder="Last name and First name">
+                                                </span>
+                                                <span class="input-group-text sty1">
+                                                    <input type="text" aria-label="First name" class="form-control"
+                                                        placeholder="Company">
+                                                </span>
+                                            </div>
+                                            <div class="input-group">
+                                                <span class="input-group-text sty1">
+                                                    <input type="text" aria-label="First name" class="form-control"
+                                                        placeholder="Email">
+                                                </span>
+                                                <span class="input-group-text sty1">
+                                                    <input type="text" aria-label="First name" class="form-control"
+                                                        placeholder="Phone">
+                                                </span>
+                                            </div>
+                                            <div class="input-group">
+                                                <span class="input-group-text sty1">
+                                                    <input type="text" aria-label="First name" class="form-control"
+                                                        placeholder="Country">
+                                                </span>
+                                                <span class="input-group-text sty1">
+                                                    <input type="text" aria-label="First name" class="form-control"
+                                                        placeholder="City/Town">
+                                                </span>
+                                            </div>
+                                            <div class="input-group mt-2">
+                                                <span class="input-group-text sty8">
+                                                    <textarea class="form-control" aria-label="With textarea"
+                                                        placeholder="Message"></textarea>
+                                                </span>
+                                            </div>
+                                            <div class="text-start hov1">
+                                                <input type="submit" class="sty3" value="Send">
+                                            </div>
+                                        </fieldset>
+                                    </div>
+                        </form>
+
+                        <div data-aos="zoom-in" data-aos-duration="1000" class="col-xs-12 col-md-12 col-lg-6 mx-auto">
+                            <div class="card sty4 mx-auto" style="width: 25rem;">
+                                <h3 class="sty5">OFFICE</h3>
+                                <div class="sty6">
+                                    <p>7950 NW 53rd Street Suite 337 - Miami, Florida 33166 -</p>
+                                    <p>Ph.(786) 279-2224 \ Fax.(866) 480-9591</p>
+                                    <p>info@luckytradenet.com</p>
                                 </div>
-                                <div class="input-group">
-                                    <span class="input-group-text sty1">
-                                        <input type="text" aria-label="First name" class="form-control"
-                                            placeholder="Email">
-                                    </span>
-                                    <span class="input-group-text sty1">
-                                        <input type="text" aria-label="First name" class="form-control"
-                                            placeholder="Phone">
-                                    </span>
+                                <div class="sty7">
+                                    <a href="https://www.facebook.com/luckytradellc" target="_blank">
+                                        <img class="hov1" src="./img/Facebook alt 1.png" alt="A">
+                                    </a>
+                                    <a href="https://twitter.com/LUCKYTRADELLC" target="_blank">
+                                        <img class="hov1" src="./img/Twitter NEW.png" alt="B">
+                                    </a>
+                                    <a href="http://www.linkedin.com/pub/lucky-trade-llc/84/a96/943" target="_blank">
+                                        <img class="hov1" src="./img/linkedin_logo_ok.png" alt="C">
+                                    </a>
+                                    <a href="mailto:info@luckytradenet.com" target="_blank">
+                                        <img class="hov1" src="./img/Mail.png" alt="D">
+                                    </a>
                                 </div>
-                                <div class="input-group">
-                                    <span class="input-group-text sty1">
-                                        <input type="text" aria-label="First name" class="form-control"
-                                            placeholder="Country">
-                                    </span>
-                                    <span class="input-group-text sty1">
-                                        <input type="text" aria-label="First name" class="form-control"
-                                            placeholder="City/Town">
-                                    </span>
-                                </div>
-                                <div class="input-group mt-2">
-                                    <span class="input-group-text sty8">
-                                        <textarea class="form-control" aria-label="With textarea"
-                                            placeholder="Message"></textarea>
-                                    </span>
-                                </div>
-                                <div class="text-start hov1">
-                                    <input type="submit" class="sty3" value="Send">
-                                </div>
-                            </fieldset>
+                            </div>
                         </div>
-            </form>
-
-            <div class="col-xs-12 col-md-12 col-lg-6 mx-auto">
-                <div class="card sty4 mx-auto" style="width: 25rem;">
-                    <h3 class="sty5">OFFICE</h3>
-                    <div class="sty6">
-                        <p>7950 NW 53rd Street Suite 337 - Miami, Florida 33166 -</p>
-                        <p>Ph.(786) 279-2224 \ Fax.(866) 480-9591</p>
-                        <p>info@luckytradenet.com</p>
-                    </div>
-                    <div class="sty7">
-                        <a href="https://www.facebook.com/luckytradellc" target="_blank">
-                        <img class="hov1" src="./img/Facebook alt 1.png" alt="A">
-                        </a>
-                        <a href="https://twitter.com/LUCKYTRADELLC" target="_blank">
-                        <img class="hov1" src="./img/Twitter NEW.png" alt="B">
-                        </a>
-                        <a href="http://www.linkedin.com/pub/lucky-trade-llc/84/a96/943" target="_blank">
-                        <img class="hov1" src="./img/linkedin_logo_ok.png" alt="C">
-                        </a>
-                        <a href="mailto:info@luckytradenet.com" target="_blank">
-                        <img class="hov1" src="./img/Mail.png" alt="D">
-                        </a>
-                    </div>
                 </div>
             </div>
-            </div>
-            </div>
-        </section>
+            </section>
     </main>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
         crossorigin="anonymous"></script>

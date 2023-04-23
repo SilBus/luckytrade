@@ -35,10 +35,10 @@ transition: opacity 1s ease 0s;
     opacity: 0.6;
 }
 .cardSty{
-    box-shadow: 0 0 15px #ffd8c8;
+    box-shadow: 0 0 16px #ffd8c8;
 }
 .cardSty:hover{
-    box-shadow: 0 0 5px #ffff  , 0 0 25px #ffff  , 0 0 50px #ffff  , 0 0 100px #ffff  ;
+    box-shadow: 0 0 2px #ffff  , 0 0 5px #ffff  , 0 0 10px #ffff  , 0 0 25px #ffff  ;
     transition: all 1s ease;
 }
 .cardsty1{
@@ -54,10 +54,12 @@ transition: opacity 1s ease 0s;
     color: white;
     line-height: 190%;
     margin-left: 20px;
+    border: 0;
 }
 .estilo2{
     font-size: 1rem;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 0;
 }
 .estilo0{
     background-color: #344c64;
@@ -74,6 +76,14 @@ transition: opacity 1s ease 0s;
 .estilo3{
     align-items: start;
     text-align: start;
+    border: 0;
+}
+.estilo11{
+    background-color:  #ececec;
+    color: black;
+}
+.estilo12{
+    background-color: black;
 }
 .sty1{
     background: transparent;
