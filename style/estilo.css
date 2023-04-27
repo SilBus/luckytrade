@@ -98,6 +98,8 @@ transition: opacity 1s ease 0s;
     padding: 8px;
     border-radius: 10px;
     width: 100px;
+    background-color: white;
+    color: black;
 }
 .sty4{
     background: transparent;
@@ -130,11 +132,6 @@ transition: opacity 1s ease 0s;
     margin-top: 10rem;
     margin-bottom: 10rem;
 }
-/*
-.sty10{
-    margin-left: 10rem;
-}
-*/
 .espacioHome{
     width: 200px;
     height: 100px;
