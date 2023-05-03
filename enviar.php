@@ -47,5 +47,6 @@ return(mail($sPara, $sAsunto, $sTexto, $sCabeceras));
 //cambiar aqui el email 
 if (form_mail("info@luckytradenet.com", $_POST[asunto], 
 "Los datos introducidos en el formulario son:\n\n", $_POST[email])) 
-echo "Muchas Gracias. Su mensaje fue enviado con exito"; 
+/*echo "Muchas Gracias. Su mensaje fue enviado con exito"; */
+header("location: gracias.html");
 ?>
